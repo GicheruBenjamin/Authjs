@@ -1,12 +1,13 @@
 {
   "name": "authjs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "node main.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": " This is a simple authentication system that allows users to log in and sign up. It uses a JSON file to store user information."
 }
